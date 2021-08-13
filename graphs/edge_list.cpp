@@ -85,6 +85,9 @@ void create_Directed_weighted_graph()
 
 }
 
+//the main issue with this approach is that the time complexity is directly proportional to number of edges which in turn turn out to be in the graph
+// O(n2)
+
 int main()
 {
    create_Directed_weighted_graph();
