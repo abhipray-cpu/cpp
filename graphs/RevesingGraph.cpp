@@ -1,0 +1,6 @@
+/*
+Adjacencymatrix = transpose
+Adjacencey list = ?
+
+
+*/
