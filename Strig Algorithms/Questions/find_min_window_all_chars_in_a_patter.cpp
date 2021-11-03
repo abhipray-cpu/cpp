@@ -72,7 +72,7 @@ void MinWindow::findMinWindow()
    int start=0;
    int end = Characters.size();
    while(start<=INPUT.size()-Characters.size())
-   {
+   { 
        string substr = INPUT.substr(start,end);
        auto sum = Hash(substr);//or can also use rolling hash kind a thing for O(1) time complexity
        if(sum == charHash)
